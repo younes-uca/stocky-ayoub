@@ -1,0 +1,80 @@
+
+<p-dialog [(visible)]="viewDialog" [style]="{width: '70vw'}" header="{{'collaborateur.tabPan' | translate}}" [modal]="true" styleClass="p-fluid">
+    <ng-template pTemplate="content">
+        <p-tabView>
+            <p-tabPanel header="{{'collaborateur.tabPan' | translate}}">
+                <div class="grid">
+                    <div class="field col-12 md:col-6">
+                        <label for="1">{{'collaborateur.nom' | translate}}</label>
+                        <input class="mb-2 mr-2" type="text" pInputText [disabled]="true" placeholder="{{'collaborateur.nom' | translate}}" autofocus  id="1" [(ngModel)]="item.nom">
+                    </div>
+                    <div class="field col-12 md:col-6">
+                        <label for="2">{{'collaborateur.prenom' | translate}}</label>
+                        <input class="mb-2 mr-2" type="text" pInputText [disabled]="true" placeholder="{{'collaborateur.prenom' | translate}}" autofocus  id="2" [(ngModel)]="item.prenom">
+                    </div>
+                    <div class="field align-inputswitch col-12  md:col-6">
+                        <div  class="label-inputswitch">
+                            <label for="3">{{'collaborateur.credentialsNonExpired' | translate}}</label>
+                        </div>
+                        <div class="input-switch">
+                            <p-inputSwitch id="3"  [disabled]="true" [(ngModel)]="item.credentialsNonExpired"></p-inputSwitch>
+                        </div>
+                    </div>
+                    <div class="field align-inputswitch col-12  md:col-6">
+                        <div  class="label-inputswitch">
+                            <label for="4">{{'collaborateur.enabled' | translate}}</label>
+                        </div>
+                        <div class="input-switch">
+                            <p-inputSwitch id="4"  [disabled]="true" [(ngModel)]="item.enabled"></p-inputSwitch>
+                        </div>
+                    </div>
+                    <div class="field align-inputswitch col-12  md:col-6">
+                        <div  class="label-inputswitch">
+                            <label for="5">{{'collaborateur.accountNonExpired' | translate}}</label>
+                        </div>
+                        <div class="input-switch">
+                            <p-inputSwitch id="5"  [disabled]="true" [(ngModel)]="item.accountNonExpired"></p-inputSwitch>
+                        </div>
+                    </div>
+                    <div class="field align-inputswitch col-12  md:col-6">
+                        <div  class="label-inputswitch">
+                            <label for="6">{{'collaborateur.accountNonLocked' | translate}}</label>
+                        </div>
+                        <div class="input-switch">
+                            <p-inputSwitch id="6"  [disabled]="true" [(ngModel)]="item.accountNonLocked"></p-inputSwitch>
+                        </div>
+                    </div>
+                    <div class="field align-inputswitch col-12  md:col-6">
+                        <div  class="label-inputswitch">
+                            <label for="7">{{'collaborateur.passwordChanged' | translate}}</label>
+                        </div>
+                        <div class="input-switch">
+                            <p-inputSwitch id="7"  [disabled]="true" [(ngModel)]="item.passwordChanged"></p-inputSwitch>
+                        </div>
+                    </div>
+                    <div class="field col-12 md:col-6">
+                        <label for="8">{{'collaborateur.username' | translate}}</label>
+                        <input class="mb-2 mr-2" type="text" pInputText [disabled]="true" placeholder="{{'collaborateur.username' | translate}}" autofocus  id="8" [(ngModel)]="item.username">
+                    </div>
+                    <div class="field col-12 md:col-6">
+                        <label for="9">{{'collaborateur.password' | translate}}</label>
+                        <input class="mb-2 mr-2" type="text" pInputText [disabled]="true" placeholder="{{'collaborateur.password' | translate}}" autofocus  id="9" [(ngModel)]="item.password">
+                    </div>
+                </div>
+            </p-tabPanel>
+
+        </p-tabView>
+
+    </ng-template>
+
+    <ng-template pTemplate="footer" >
+        <div class="grid-footer">
+            <div>
+                <button pButton pRipple label="Annuler" icon="pi pi-times" class="p-button-outlined" (click)="hideViewDialog()"></button>
+            </div>
+        </div>
+    </ng-template>
+</p-dialog>
+
+
+

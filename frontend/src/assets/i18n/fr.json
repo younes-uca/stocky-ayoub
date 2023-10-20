@@ -1,0 +1,256 @@
+{
+    "from-to": "Elements from {first} to {last} (total {totalRecords})",
+    "new" : "New",
+    "search": "Search",
+    "export": "Export",
+    "validate": "Validate",
+    "search": "Seach...",
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "save": "Save",
+    "next": "Next",
+    "yes": "Yes",
+    "no": "No",
+    "actions": "Actions",
+    "confirm": "Confirm",
+    "creation": "Creation",
+    "list": "List",
+
+
+    "categorieProduit":{
+        "reference": "Reference",
+        "libelle": "Libelle",
+        "categorieProduit": "Categorie produit",
+        "tabPan": "Categorie produit",
+        "header": "Liste des categorie produits",
+        "deleteCategorieProduitConfirmationMessage": "Are you sure you want to delete categorie produit",
+        "deleteCategorieProduitsConfirmationMessage": "Are you sure you want to delete the selected elements"
+    },
+
+
+    "marque":{
+        "reference": "Reference",
+        "libelle": "Libelle",
+        "marque": "Marque",
+        "tabPan": "Marque",
+        "header": "Liste des marques",
+        "deleteMarqueConfirmationMessage": "Are you sure you want to delete marque",
+        "deleteMarquesConfirmationMessage": "Are you sure you want to delete the selected elements"
+    },
+
+
+    "inventaireItem":{
+        "produit": "Produit",
+        "produitPlaceHolder": "Select a Produit",
+        "produitPlaceHolderFilter": "Search by Produit",
+        "quantiteEstime": "Quantite estime",
+        "quantiteEstimeMin": "Quantite estime Min",
+        "quantiteEstimeMax": "Quantite estime Max",
+        "quantiteReelle": "Quantite reelle",
+        "quantiteReelleMin": "Quantite reelle Min",
+        "quantiteReelleMax": "Quantite reelle Max",
+        "inventaire": "Inventaire",
+        "inventairePlaceHolder": "Select a Inventaire",
+        "inventairePlaceHolderFilter": "Search by Inventaire",
+        "inventaireItem": "Inventaire item",
+        "tabPan": "Inventaire item",
+        "header": "Liste des inventaire items",
+        "deleteInventaireItemConfirmationMessage": "Are you sure you want to delete inventaire item",
+        "deleteInventaireItemsConfirmationMessage": "Are you sure you want to delete the selected elements"
+    },
+
+
+    "collaborateur":{
+        "nom": "Nom",
+        "prenom": "Prenom",
+        "credentialsNonExpired": "Credentials non expired",
+        "enabled": "Enabled",
+        "accountNonExpired": "Account non expired",
+        "accountNonLocked": "Account non locked",
+        "passwordChanged": "Password changed",
+        "username": "Username",
+        "password": "Password",
+        "collaborateur": "Collaborateur",
+        "tabPan": "Collaborateur",
+        "header": "Liste des collaborateurs",
+        "deleteCollaborateurConfirmationMessage": "Are you sure you want to delete collaborateur",
+        "deleteCollaborateursConfirmationMessage": "Are you sure you want to delete the selected elements"
+    },
+
+
+    "entreeProduit":{
+        "reference": "Reference",
+        "dateEntreeProduit": "Date entree produit",
+        "dateEntreeProduitMin": "Date entree produit Min",
+        "dateEntreeProduitMax": "Date entree produit Max",
+        "total": "Total",
+        "totalMin": "Total Min",
+        "totalMax": "Total Max",
+        "fournisseur": "Fournisseur",
+        "fournisseurPlaceHolder": "Select a Fournisseur",
+        "fournisseurPlaceHolderFilter": "Search by Fournisseur",
+        "description": "Description",
+        "collaborateur": "Collaborateur",
+        "collaborateurPlaceHolder": "Select a Collaborateur",
+        "collaborateurPlaceHolderFilter": "Search by Collaborateur",
+        "entreeProduitItems": "Entree produit items",
+        "entreeProduit": "Entree produit",
+        "tabPan": "Entree produit",
+        "header": "Liste des entree produits",
+        "deleteEntreeProduitConfirmationMessage": "Are you sure you want to delete entree produit",
+        "deleteEntreeProduitsConfirmationMessage": "Are you sure you want to delete the selected elements"
+    },
+
+
+    "entreeProduitItem":{
+        "produit": "Produit",
+        "produitPlaceHolder": "Select a Produit",
+        "produitPlaceHolderFilter": "Search by Produit",
+        "quantite": "Quantite",
+        "quantiteMin": "Quantite Min",
+        "quantiteMax": "Quantite Max",
+        "prix": "Prix",
+        "prixMin": "Prix Min",
+        "prixMax": "Prix Max",
+        "entreeProduit": "Entree produit",
+        "entreeProduitPlaceHolder": "Select a Entree produit",
+        "entreeProduitPlaceHolderFilter": "Search by Entree produit",
+        "entreeProduitItem": "Entree produit item",
+        "tabPan": "Entree produit item",
+        "header": "Liste des entree produit items",
+        "deleteEntreeProduitItemConfirmationMessage": "Are you sure you want to delete entree produit item",
+        "deleteEntreeProduitItemsConfirmationMessage": "Are you sure you want to delete the selected elements"
+    },
+
+
+    "sortieProduitItem":{
+        "produit": "Produit",
+        "produitPlaceHolder": "Select a Produit",
+        "produitPlaceHolderFilter": "Search by Produit",
+        "quantite": "Quantite",
+        "quantiteMin": "Quantite Min",
+        "quantiteMax": "Quantite Max",
+        "prix": "Prix",
+        "prixMin": "Prix Min",
+        "prixMax": "Prix Max",
+        "sortieProduit": "Sortie produit",
+        "sortieProduitPlaceHolder": "Select a Sortie produit",
+        "sortieProduitPlaceHolderFilter": "Search by Sortie produit",
+        "sortieProduitItem": "Sortie produit item",
+        "tabPan": "Sortie produit item",
+        "header": "Liste des sortie produit items",
+        "deleteSortieProduitItemConfirmationMessage": "Are you sure you want to delete sortie produit item",
+        "deleteSortieProduitItemsConfirmationMessage": "Are you sure you want to delete the selected elements"
+    },
+
+
+    "fournisseur":{
+        "reference": "Reference",
+        "nom": "Nom",
+        "prenom": "Prenom",
+        "telephone": "Telephone",
+        "email": "Email",
+        "description": "Description",
+        "fournisseur": "Fournisseur",
+        "tabPan": "Fournisseur",
+        "header": "Liste des fournisseurs",
+        "deleteFournisseurConfirmationMessage": "Are you sure you want to delete fournisseur",
+        "deleteFournisseursConfirmationMessage": "Are you sure you want to delete the selected elements"
+    },
+
+
+    "depot":{
+        "libelle": "Libelle",
+        "adresse": "Adresse",
+        "depot": "Depot",
+        "tabPan": "Depot",
+        "header": "Liste des depots",
+        "deleteDepotConfirmationMessage": "Are you sure you want to delete depot",
+        "deleteDepotsConfirmationMessage": "Are you sure you want to delete the selected elements"
+    },
+
+
+    "produit":{
+        "reference": "Reference",
+        "categorieProduit": "Categorie produit",
+        "categorieProduitPlaceHolder": "Select a Categorie produit",
+        "categorieProduitPlaceHolderFilter": "Search by Categorie produit",
+        "libelle": "Libelle",
+        "marque": "Marque",
+        "marquePlaceHolder": "Select a Marque",
+        "marquePlaceHolderFilter": "Search by Marque",
+        "prixAchatMoyen": "Prix achat moyen",
+        "prixAchatMoyenMin": "Prix achat moyen Min",
+        "prixAchatMoyenMax": "Prix achat moyen Max",
+        "prixVente": "Prix vente",
+        "prixVenteMin": "Prix vente Min",
+        "prixVenteMax": "Prix vente Max",
+        "stocks": "Stocks",
+        "produit": "Produit",
+        "tabPan": "Produit",
+        "header": "Liste des produits",
+        "deleteProduitConfirmationMessage": "Are you sure you want to delete produit",
+        "deleteProduitsConfirmationMessage": "Are you sure you want to delete the selected elements"
+    },
+
+
+    "stock":{
+        "produit": "Produit",
+        "produitPlaceHolder": "Select a Produit",
+        "produitPlaceHolderFilter": "Search by Produit",
+        "depot": "Depot",
+        "depotPlaceHolder": "Select a Depot",
+        "depotPlaceHolderFilter": "Search by Depot",
+        "quantite": "Quantite",
+        "quantiteMin": "Quantite Min",
+        "quantiteMax": "Quantite Max",
+        "stock": "Stock",
+        "tabPan": "Stock",
+        "header": "Liste des stocks",
+        "deleteStockConfirmationMessage": "Are you sure you want to delete stock",
+        "deleteStocksConfirmationMessage": "Are you sure you want to delete the selected elements"
+    },
+
+
+    "inventaire":{
+        "reference": "Reference",
+        "dateInventaire": "Date inventaire",
+        "dateInventaireMin": "Date inventaire Min",
+        "dateInventaireMax": "Date inventaire Max",
+        "description": "Description",
+        "collaborateur": "Collaborateur",
+        "collaborateurPlaceHolder": "Select a Collaborateur",
+        "collaborateurPlaceHolderFilter": "Search by Collaborateur",
+        "inventaireItems": "Inventaire items",
+        "inventaire": "Inventaire",
+        "tabPan": "Inventaire",
+        "header": "Liste des inventaires",
+        "deleteInventaireConfirmationMessage": "Are you sure you want to delete inventaire",
+        "deleteInventairesConfirmationMessage": "Are you sure you want to delete the selected elements"
+    },
+
+
+    "sortieProduit":{
+        "reference": "Reference",
+        "dateSortieProduit": "Date sortie produit",
+        "dateSortieProduitMin": "Date sortie produit Min",
+        "dateSortieProduitMax": "Date sortie produit Max",
+        "total": "Total",
+        "totalMin": "Total Min",
+        "totalMax": "Total Max",
+        "description": "Description",
+        "collaborateur": "Collaborateur",
+        "collaborateurPlaceHolder": "Select a Collaborateur",
+        "collaborateurPlaceHolderFilter": "Search by Collaborateur",
+        "sortieProduitItems": "Sortie produit items",
+        "sortieProduit": "Sortie produit",
+        "tabPan": "Sortie produit",
+        "header": "Liste des sortie produits",
+        "deleteSortieProduitConfirmationMessage": "Are you sure you want to delete sortie produit",
+        "deleteSortieProduitsConfirmationMessage": "Are you sure you want to delete the selected elements"
+    },
+
+"appName": "GED"
+}
+
+
