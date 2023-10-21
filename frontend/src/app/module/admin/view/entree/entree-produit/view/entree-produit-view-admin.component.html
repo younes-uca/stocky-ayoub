@@ -18,7 +18,7 @@
                     </div>
                     <div class="field col-12 md:col-6">
                         <label for="4">{{'entreeProduit.fournisseur' | translate}}</label>
-                        <input class="mb-2 mr-2" type="text" pInputText [disabled]="true" placeholder="{{'entreeProduit.fournisseur' | translate}}" autofocus  id="4" [(ngModel)]="item.fournisseur?.reference">
+                        <input class="mb-2 mr-2" type="text" pInputText [disabled]="true" placeholder="{{'entreeProduit.fournisseur' | translate}}" autofocus  id="4" [(ngModel)]="item.fournisseur.reference">
                     </div>
                     <div class="field col-12 md:col-6">
                         <label for="5">{{'entreeProduit.description' | translate}}</label>
@@ -26,7 +26,7 @@
                     </div>
                     <div class="field col-12 md:col-6">
                         <label for="6">{{'entreeProduit.collaborateur' | translate}}</label>
-                        <input class="mb-2 mr-2" type="text" pInputText [disabled]="true" placeholder="{{'entreeProduit.collaborateur' | translate}}" autofocus  id="6" [(ngModel)]="item.collaborateur?.prenom">
+                        <input class="mb-2 mr-2" type="text" pInputText [disabled]="true" placeholder="{{'entreeProduit.collaborateur' | translate}}" autofocus  id="6" [(ngModel)]="item.collaborateur.prenom">
                     </div>
                 </div>
             </p-tabPanel>
